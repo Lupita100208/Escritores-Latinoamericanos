@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #ebcaa8; 
+    font-family: Arial, sans-serif;
+}
+
+.header-section {
+    background-color: white;
+    color: rgb(116, 82, 82);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.header-section img {
+    max-width: 200px;
+    height: auto;
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.credits {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    color: #000;
+}
+body {
+    .boton {
+        display: inline-block; /* Para que el botón ocupe el espacio de su contenido */
+        padding: 10px 20px; /* Espacio alrededor del texto */
+        background-color: white; /* Color de fondo */
+        color: black; /* Color del texto */
+        text-decoration: none; /* Eliminar el subrayado */
+        border-radius: 5px; /* Esquinas redondeadas */
+        cursor: pointer; /* Cambiar el cursor a puntero al pasar el mouse */
+        /* Puedes añadir más estilos como sombras, etc. */
+      }
+}
